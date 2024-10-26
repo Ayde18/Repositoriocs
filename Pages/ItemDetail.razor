@@ -1,0 +1,34 @@
+@page "/itemdetail/{id:int}"
+@inject ItemService ItemService // Inyectamos el servicio para obtener detalles de un ítem específico
+
+<h3>Detalles del Ítem</h3>
+
+@if (item == null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <h4>@item.Title</h4>
+    <p>@item.Body</p>
+    <img src="img/item-image.jpg" alt="Imagen del Ítem" style="width:100px;height:100px;">
+}
+
+@code {
+    private Item? item; // Permitir que item sea nulo
+
+    [Parameter]
+    public int id { get; set; } // Asegúrate de tener la propiedad id
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            item = await ItemService.GetItemDetailAsync(id); // Usa id para obtener los detalles
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al cargar el ítem: {ex.Message}");
+        }
+    }
+}

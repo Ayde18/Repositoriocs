@@ -1,0 +1,41 @@
+@using MiProyectoBlazor.Components
+@page "/items"
+@inject ItemService ItemService
+
+<h3>Lista de Ítems</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p class="text-danger">@errorMessage</p>
+}
+else if (items == null || !items.Any())
+{
+    <p>Cargando...</p>
+}
+else
+{
+    @foreach (var item in items)
+    {
+        <NavLink href=@($"itemdetail/{item.Id}") class="item-link">
+            <ItemCard Item="item" />
+        </NavLink>
+    }
+}
+
+@code {
+    private List<Item> items = new List<Item>();
+    private string errorMessage = string.Empty; // Inicializar
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            items = await ItemService.GetItemsAsync();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error al cargar los ítems: {ex.Message}";
+        }
+    }
+}
+

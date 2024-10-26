@@ -1,0 +1,22 @@
+
+@code {
+    [Parameter] 
+    public Item? Item { get; set; } = new Item(); // Agrega esto para evitar nulos
+     // Parámetro de tipo Item que recibe datos de cada ítem
+
+    // Método que se ejecuta al hacer clic en el componente
+    private void HandleClick()
+    {
+        Console.WriteLine($"Clic en {Item.Title}"); // Imprime el título del ítem en la consola
+    }
+}
+@if (Item != null)
+{
+    <div>
+        <h3>@Item.Title</h3>
+        <p>@Item.Body</p>
+    </div>
+}
+<h3>@Item?.Title</h3>
+<p>@Item?.Body</p>
+

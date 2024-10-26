@@ -1,0 +1,8 @@
+C:\Users\Ayde Posada\OneDrive - Tecnologico de Antioquia Institucion Universitaria\Escritorio\Ayde 2024-2\C.S\MiProyectoBlazor\obj\Debug\net6.0\MiProyectoBlazor.csproj.AssemblyReference.cache
+C:\Users\Ayde Posada\OneDrive - Tecnologico de Antioquia Institucion Universitaria\Escritorio\Ayde 2024-2\C.S\MiProyectoBlazor\obj\Debug\net6.0\MiProyectoBlazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayde Posada\OneDrive - Tecnologico de Antioquia Institucion Universitaria\Escritorio\Ayde 2024-2\C.S\MiProyectoBlazor\obj\Debug\net6.0\MiProyectoBlazor.AssemblyInfoInputs.cache
+C:\Users\Ayde Posada\OneDrive - Tecnologico de Antioquia Institucion Universitaria\Escritorio\Ayde 2024-2\C.S\MiProyectoBlazor\obj\Debug\net6.0\MiProyectoBlazor.AssemblyInfo.cs
+C:\Users\Ayde Posada\OneDrive - Tecnologico de Antioquia Institucion Universitaria\Escritorio\Ayde 2024-2\C.S\MiProyectoBlazor\obj\Debug\net6.0\MiProyectoBlazor.csproj.CoreCompileInputs.cache
+C:\Users\Ayde Posada\OneDrive - Tecnologico de Antioquia Institucion Universitaria\Escritorio\Ayde 2024-2\C.S\MiProyectoBlazor\obj\Debug\net6.0\MiProyectoBlazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ayde Posada\OneDrive - Tecnologico de Antioquia Institucion Universitaria\Escritorio\Ayde 2024-2\C.S\MiProyectoBlazor\obj\Debug\net6.0\MiProyectoBlazor.RazorAssemblyInfo.cache
+C:\Users\Ayde Posada\OneDrive - Tecnologico de Antioquia Institucion Universitaria\Escritorio\Ayde 2024-2\C.S\MiProyectoBlazor\obj\Debug\net6.0\MiProyectoBlazor.RazorAssemblyInfo.cs
